@@ -1,0 +1,12 @@
+body {
+    background-color: navy;
+    text-align: center;
+}
+
+.banner {
+    color: white;
+}
+
+#tic-tac-toe {
+    border: solid 5px gray;
+}

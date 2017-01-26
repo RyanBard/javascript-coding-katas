@@ -1,0 +1,17 @@
+body {
+    background-color: navy;
+    text-align: center;
+}
+
+#score,
+.banner {
+    color: white;
+}
+
+#score {
+    margin-bottom: 10px;
+}
+
+#snake {
+    border: solid 5px gray;
+}
