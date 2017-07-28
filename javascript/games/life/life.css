@@ -1,0 +1,14 @@
+body {
+    background-color: navy;
+    text-align: center;
+}
+
+.banner {
+    color: white;
+}
+
+#life {
+    border: solid 5px gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
