@@ -1,6 +1,6 @@
 # An implementation of Breakout
 
-[Play Breakout](breakout.html)
+[Play Breakout](https://ryanbard.github.io/coding-katas/javascript/games/breakout/breakout.html)
 
 TODO
 

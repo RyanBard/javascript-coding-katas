@@ -1,6 +1,6 @@
 # A simple implementation of Tetris
 
-[Play Tetris](tetris.html)
+[Play Tetris](https://ryanbard.github.io/coding-katas/javascript/games/tetris/tetris.html)
 
 Code is inspired by:
 
