@@ -1,5 +1,7 @@
 # A simple implementation of Tic Tac Toe
 
+[Play Tic-Tac-Toe](tic-tac-toe.html)
+
 TODO
 
 * turn based (simple, no game loop, how does this affect how you code requestAnimationFrame? do you need it?)

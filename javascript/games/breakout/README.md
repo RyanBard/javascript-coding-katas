@@ -1,16 +1,18 @@
 # An implementation of Breakout
 
+[Play Breakout](breakout.html)
+
 TODO
 
 Notes:
 
 Project inspired by (rules and look influenced by combinations of):
 
-* https://en.wikipedia.org/wiki/Breakout_(video_game)
-* https://www.youtube.com/watch?v=IpVIufJ4qoU
-* https://www.youtube.com/watch?v=MTnhlAlzb6Y
-* https://www.youtube.com/watch?v=JRAPnuwnpRs
-* https://www.youtube.com/watch?v=QIs3UOTdsJM
+* [https://en.wikipedia.org/wiki/Breakout_(video_game)](https://en.wikipedia.org/wiki/Breakout_(video_game))
+* [https://www.youtube.com/watch?v=IpVIufJ4qoU](https://www.youtube.com/watch?v=IpVIufJ4qoU)
+* [https://www.youtube.com/watch?v=MTnhlAlzb6Y](https://www.youtube.com/watch?v=MTnhlAlzb6Y)
+* [https://www.youtube.com/watch?v=JRAPnuwnpRs](https://www.youtube.com/watch?v=JRAPnuwnpRs)
+* [https://www.youtube.com/watch?v=QIs3UOTdsJM](https://www.youtube.com/watch?v=QIs3UOTdsJM)
 
 
 
