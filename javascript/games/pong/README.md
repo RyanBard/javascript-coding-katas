@@ -1,6 +1,6 @@
 # A simple implementation of Pong
 
-[Play Pong](https://ryanbard.github.io/coding-katas/javascript/games/pong/pong.html)
+[Play Pong](pong.html)
 
 Code is inspired by:
 
