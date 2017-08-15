@@ -36,7 +36,7 @@ var mergesortService = (function () {
     /**
      * This leverages recursion for simplicity.
      */
-    function recursiveMergesort(array) {
+    function mergesort(array) {
         var arr1,
             arr2;
 
@@ -50,13 +50,13 @@ var mergesortService = (function () {
         arr2 = array.slice(array.length / 2);
 
         return merge(
-            recursiveMergesort(arr1),
-            recursiveMergesort(arr2)
+            mergesort(arr1),
+            mergesort(arr2)
         );
     }
 
     return {
-        recursiveMergesort: recursiveMergesort
+        mergesort: mergesort
     };
 
 }());

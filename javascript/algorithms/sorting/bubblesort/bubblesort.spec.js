@@ -7,15 +7,15 @@
         });
     }
 
-    describe('Merge Sort', function () {
+    describe('Bubble Sort', function () {
 
-        describe('mergesort', function () {
+        describe('bubblesort', function () {
 
             it('should throw an error for a non-array', function () {
                 var input = {};
 
                 expect(function () {
-                    service.mergesort(input);
+                    service.bubblesort(input);
                 }).toThrow(new Error('You must pass in a non-empty Array!'));
             });
 
@@ -24,7 +24,7 @@
                     expected = [],
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
                 expect(actual).not.toBe(input);
@@ -35,7 +35,7 @@
                     expected = [0],
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
                 expect(actual).not.toBe(input);
@@ -46,7 +46,7 @@
                     expected = [1, 2, 3],
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
                 expect(actual).not.toBe(input);
@@ -57,7 +57,7 @@
                     expected = copyAndSort(input),
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
             });
@@ -67,7 +67,7 @@
                     expected = copyAndSort(input),
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
             });
@@ -77,7 +77,7 @@
                     expected = copyAndSort(input),
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
             });
@@ -87,7 +87,7 @@
                     expected = copyAndSort(input),
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
             });
@@ -97,7 +97,7 @@
                     expected = copyAndSort(input),
                     actual;
 
-                actual = service.mergesort(input);
+                actual = service.bubblesort(input);
 
                 expect(actual).toEqual(expected);
             });
@@ -106,4 +106,4 @@
 
     });
 
-}(window.mergesortService));
+}(window.bubblesortService));

@@ -2,4 +2,5 @@
 
 Just practicing some JavaScript by writing simple sort algorithms.
 
-* [Mergesort](mergesort/README.md)
+* [Merge Sort](mergesort/README.md)
+* [Bubble Sort](bubblesort/README.md)
