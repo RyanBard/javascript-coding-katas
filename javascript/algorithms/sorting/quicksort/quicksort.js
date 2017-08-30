@@ -3,7 +3,7 @@ var quicksortService = (function () {
 
     function validateInput(array) {
         if (!Array.isArray(array)) {
-            throw new Error('You must pass in a non-empty Array!');
+            throw new Error('You must pass in an Array!');
         }
     }
 
@@ -44,10 +44,6 @@ var quicksortService = (function () {
 
     /**
      * An implementation of Quick Sort using recursion for simplicity.
-     * left++
-     * right++
-     * swap if high-low is wrong
-     * when meet in the middle, recurse w/ 2 halves
      */
     function quicksort(array) {
         validateInput(array);
@@ -59,11 +55,41 @@ var quicksortService = (function () {
         return toRet;
     }
 
+    /**
+     * An implementation of Quick Sort using recursion and Array.filter to
+     * further simplify the code.
+     */
+    function quicksortUsingFilter(array) {
+        validateInput(array);
+
+        if (array.length === 0) {
+            return [];
+        }
+
+        var pivot = array[0],
+            remaining = array.slice(1),
+            lessThanPivot = remaining.filter(
+                function (value) {
+                    return value < pivot;
+                }
+            ),
+            greaterThanPivot = remaining.filter(
+                function (value) {
+                    return value >= pivot;
+                }
+            ),
+            begin = quicksortUsingFilter(lessThanPivot),
+            end = quicksortUsingFilter(greaterThanPivot);
+
+        return begin.concat(pivot).concat(end);
+    }
+
     /*
      * Methods to expose.
      */
     return {
-        quicksort: quicksort
+        quicksort: quicksort,
+        quicksortUsingFilter: quicksortUsingFilter
     };
 
 }());

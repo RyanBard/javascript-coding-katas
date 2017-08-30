@@ -3,7 +3,7 @@ var mergesortService = (function () {
 
     function validateInput(array) {
         if (!Array.isArray(array)) {
-            throw new Error('You must pass in a non-empty Array!');
+            throw new Error('You must pass in an Array!');
         }
     }
 

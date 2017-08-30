@@ -16,7 +16,7 @@
 
                 expect(function () {
                     service.mergesort(input);
-                }).toThrow(new Error('You must pass in a non-empty Array!'));
+                }).toThrow(new Error('You must pass in an Array!'));
             });
 
             it('should return an empty array when passed an empty array', function () {
