@@ -1,6 +1,6 @@
 # A simple implementation of Snake
 
-[Play Snake](https://ryanbard.github.io/coding-katas/javascript/games/snake/snake.html)
+[Play Snake](https://ryanbard.github.io/javascript-coding-katas/games/snake/snake.html)
 
 Code is inspired by:
 
