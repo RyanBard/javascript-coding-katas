@@ -46,12 +46,12 @@
                 expect(finishCalled).toBe(0);
                 cb2();
                 expect(finishCalled).toBe(0);
-            }, 1000);
+            }, 100);
 
             setTimeout(function () {
                 expect(finishCalled).toBe(0);
                 cb3();
-            }, 2000);
+            }, 200);
 
             setTimeout(function () {
                 expect(finishCalled).toBe(1);
@@ -70,7 +70,7 @@
                 expect(cb3Called).toEqual([true, false, true]);
 
                 done();
-            }, 3000);
+            }, 300);
 
             expect(finishCalled).toBe(0);
         });
@@ -113,12 +113,12 @@
                     expect(finishCalled).toBe(0);
                     results[1]();
                     expect(finishCalled).toBe(0);
-                }, 1000);
+                }, 100);
 
                 setTimeout(function () {
                     expect(finishCalled).toBe(0);
                     results[2]();
-                }, 2000);
+                }, 200);
 
                 setTimeout(function () {
                     expect(finishCalled).toBe(1);
@@ -137,7 +137,7 @@
                     expect(cb3Called).toEqual([true, false, true]);
 
                     done();
-                }, 3000);
+                }, 300);
 
                 expect(finishCalled).toBe(0);
             });
@@ -187,12 +187,12 @@
                     expect(finishResult).toBe(0);
                     input.method2();
                     expect(finishResult).toBe(0);
-                }, 1000);
+                }, 100);
 
                 setTimeout(function () {
                     expect(finishResult).toBe(0);
                     input.method3();
-                }, 2000);
+                }, 200);
 
                 setTimeout(function () {
                     expect(finishResult).toBe(3210);
@@ -214,7 +214,7 @@
                     expect(cb3Called).toEqual([true, false, true]);
 
                     done();
-                }, 3000);
+                }, 300);
 
                 expect(finishResult).toBe(0);
             });
