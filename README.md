@@ -2,7 +2,7 @@
 
 Just practicing some JavaScript.
 
-This project is just a place to dump some javascript code for [coding katas]((https://en.wikipedia.org/wiki/Kata_(programming)).
+This project is just a place to dump some javascript code for [coding katas](https://en.wikipedia.org/wiki/Kata_(programming)).
 
 All code in this repository is [MIT Licensed](LICENSE).
 
