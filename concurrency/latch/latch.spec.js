@@ -3,7 +3,7 @@
 
     describe('manual latch', function () {
 
-        it('should only call finished when all functions were called and only called once', function () {
+        it('should only call finished when any functions were called and only called once', function () {
             var finishCalled = 0,
                 cb1Called = false,
                 cb2Called = false,
@@ -62,7 +62,7 @@
 
         describe('latchOnParams', function () {
 
-            it('should only call the finishedCallback when all params were called and only called once', function () {
+            it('should only call the finishedCallback when any params were called and only called once', function () {
                 var finishCalled = 0,
                     cb1Called = false,
                     cb2Called = false,
@@ -108,7 +108,7 @@
 
         describe('latchOnObjMethods', function () {
 
-            it('should only call the finishedCallback when all methods were called and only called once', function () {
+            it('should only call the finishedCallback when any methods were called and only called once', function () {
                 var finishResult = 0,
                     cb1Called = false,
                     cb2Called = false,
